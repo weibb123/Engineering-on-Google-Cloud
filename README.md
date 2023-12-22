@@ -40,7 +40,18 @@ pip3 install Flask google-cloud-pubsub google-cloud-logging google-cloud-storage
 Finally: Go to VPC Networks and reserve a static ip address and allow firewall port 8080 since this flask application is build in port 8080.
 
 ## Schema
-The code used to create schema and maintain 2nd NORMAL FORM is in one of the ipynb.
+The code used to create schema and maintain 2nd NORMAL FORM is in one of the ipynb. For SQL database optimization,
+
+we will create 2nd normal form
+1NF
+
+- Each cell in table should contain single value
+- Each column in table should be unique
+
+2NF
+
+- satisfy 1NF
+- attributes cannot depend on subset of the key(multiple IDs), must depend on entirety of key
 
 ## Webserver
 To build our webserver.py, we use requests.get to acquire informations and store in our Google Cloud SQL base by making connection using crendentials.
