@@ -37,11 +37,20 @@ pip3 install pymysql sqlalchemy
 pip3 install "cloud-sql-python-connector[pymysql]"
 pip3 install Flask google-cloud-pubsub google-cloud-logging google-cloud-storage
 ```
+Finally: Go to VPC Networks and reserve a static ip address and allow firewall port 8080 since this flask application is build in port 8080.
 
 ## Schema
 The code used to create schema and maintain 2nd NORMAL FORM is in one of the ipynb.
 
 ## Webserver
-To build our webserver
+To build our webserver.py, we use requests.get to acquire informations and store in our Google Cloud SQL base by making connection using crendentials.
+
+
+## Data Analysis
+Again, making connection to the DB, we can write SQL command to retrieve data from columns and write SQL commands for analysis
+![image](https://github.com/weibb123/Data-with-Google-Cloud/assets/84426364/9be39caf-5cc2-4cc2-ba1f-66470a16dd33)
+
+
+
 
 
