@@ -43,6 +43,7 @@ Finally: Go to VPC Networks and reserve a static ip address and allow firewall p
 The code used to create schema and maintain 2nd NORMAL FORM is in one of the ipynb. For SQL database optimization,
 
 we will create 2nd normal form
+
 1NF
 
 - Each cell in table should contain single value
