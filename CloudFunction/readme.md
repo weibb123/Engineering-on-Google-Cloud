@@ -12,3 +12,6 @@ def request_http(request):
    return ...
 ```
 
+When it comes to logging messages. Cloud functions have built-in print statement.
+By printing the message, it logs the message onto google cloud function logging.
+
