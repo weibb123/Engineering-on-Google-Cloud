@@ -63,7 +63,7 @@ we will create 2nd normal form
 - attributes cannot depend on subset of the key(multiple IDs), must depend on entirety of key
 
 #### Webserver
-To build our webserver.py, we use requests.get to acquire informations and store in our Google Cloud SQL base by making connection using crendentials.
+To build our webserver.py, we use requests.get to acquire informations and store in our Google Cloud SQL base by making connection using credentials.
 
 
 #### Data Analysis
