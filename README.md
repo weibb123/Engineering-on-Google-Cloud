@@ -43,7 +43,7 @@ pip3 install "cloud-sql-python-connector[pymysql]"
 pip3 install Flask google-cloud-pubsub google-cloud-logging google-cloud-storage
 ```
 
-#### VPC Network/firewall
+## VPC Network/firewall
 Finally: Go to VPC Networks and reserve a static ip address and allow firewall port 8080 since this flask application is build in port 8080.
 
 ## CLOUDSQL
