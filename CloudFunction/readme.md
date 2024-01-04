@@ -22,3 +22,7 @@ By printing the message, it logs the message onto google cloud function logging.
 gcloud functions deploy hw3cloudfunction --runtime=python311 --region=us-east1 --source=. --entry-point=request_http --trigger-http --allow-unauthenticated
 ```
 
+#### Including Pub/sub
+
+
+
