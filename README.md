@@ -1,6 +1,6 @@
 # Data-with-Google-Cloud
 
-A project to learn about essential features on Google Cloud while doing data anylsis.
+A project to learn about essential tools on Google Cloud
 
 This project involve using multiple tools on Google Cloud Platform.
 
