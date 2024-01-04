@@ -1,6 +1,12 @@
 # Data-with-Google-Cloud
 
 A project to learn about essential features on Google Cloud while doing data anylsis.
+
+This project involve using multiple tools on Google Cloud Platform.
+
+1. Store necessary files in Google Storage Bucket.
+2. Write webserver using Flask then provision a VM to host in it. With limited budget, the spec for this VM is e2-micro.
+3. Webserver also responsible for storing requests to CloudSQL. To use CloudSQL, I chose to create schema that follow 2ND normal form for database optimization.
 ![image](https://github.com/weibb123/Data-with-Google-Cloud/assets/84426364/9980761d-0529-4599-8a86-fa29ca689563)
 
 
