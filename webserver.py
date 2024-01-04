@@ -7,17 +7,17 @@ from google.cloud.sql.connector import Connector
 import sqlalchemy
 from sqlalchemy import text
 
-project_id = "true-source-329719"
-region = "us-central1"
-instance_name = "hw5-database"
-pw = 'my_password'
+project_id = <your_project_id>
+region = <your_region>
+instance_name = <your_db_name>
+pw = <your_pw>
 banned_countries = ["North Korea", "Iran", "Cuba", "Myanmar", "Iraq", "Libya", "Sudan", "Zimbabwe", "Syria"]
 
 instance_connection_name = f"{project_id}:{region}:{instance_name}"
 print(f"Your instance connection name is: {instance_connection_name}")
-DB_USER = "wei"
-DB_PASS = 'my_password'
-DB_NAME = "hw5" 
+DB_USER = <your_db_user>
+DB_PASS = <your_db_user_password>
+DB_NAME = <your_db_name>
 
 ## SQL STUFF ##
 # initialize Connector object
