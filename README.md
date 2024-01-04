@@ -4,14 +4,18 @@ A project to learn about essential tools on Google Cloud
 
 This project involve using multiple tools on Google Cloud Platform.
 
-1. Store necessary files in Google Storage Bucket.
+1. CloudFunction
+2. Cloud Storage, Compute Engine, CloudSQL
+3. VPC Network
+
+1. Store necessary files in Google Cloud Storage
 2. Write webserver using Flask then provision a VM to host in it. With limited budget, the spec for this VM is e2-micro.
 3. Webserver also responsible for storing requests to CloudSQL. To use CloudSQL, I chose to create schema that follow 2ND normal form for database optimization.
 ![image](https://github.com/weibb123/Data-with-Google-Cloud/assets/84426364/9980761d-0529-4599-8a86-fa29ca689563)
 
 
 
-## Tech Stack Used:
+## Tech Used:
 CloudSQL, Cloud Compute Engine(VM Creation), Python, Flask, Cloud Logging, PubSub
 
 ## Configuration
